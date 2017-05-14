@@ -89,6 +89,7 @@
                     </ul>
                 </li>
                 <li><a href="gallery.php">Gallery</a></li>
+                <li><a href="studentIndex.php">Student</a></li>
                 <li><a href="post.php">Post</a></li>
 <!--                 <li><a href="medical-Blog.html">Blog</a></li> -->
                 <li><a href="contact.php">Contact us</a></li>
