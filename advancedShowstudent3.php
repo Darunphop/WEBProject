@@ -26,7 +26,7 @@
                           <div class="col-md-4 col-xs-12">
                             <div class="box bg-color-1">
                               <div class="box-img border-color-1 text-center">
-                               <a href="studentProfile.php?id=<?=$row["id"]?>">
+                               <a href="studentProfile3.php?id=<?=$row["id"]?>">
                                   <img src=<?=$row["img"]?> alt="image" class="img-responsive">
                                 </a>
                               </div>
