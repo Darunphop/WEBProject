@@ -17,7 +17,7 @@
                     <div class="gallery">
                         <img src="img/medical/sm-1.jpg" alt="gallery-img" class="img-responsive">
                         <div class="gallery-overlay">
-                            <p><a href="index.php" ><i class="pe-7s-plus"></i></a></p>
+                            <p><a href="advancedShowstudent1.php" ><i class="pe-7s-plus"></i></a></p>
                         </div>
                     </div>
                 </div><!--col-->
@@ -25,7 +25,7 @@
                     <div class="gallery">
                         <img src="img/medical/sm-4.jpg" alt="gallery-img" class="img-responsive">
                         <div class="gallery-overlay">
-                            <p><a href="img/medical/sm-4.jpg" class="show-image"><i class="pe-7s-plus"></i></a></p>
+                            <p><a href="advancedShowstudent2.php" ><i class="pe-7s-plus"></i></a></p>
                         </div>
                     </div>
                 </div><!--col-->
@@ -33,7 +33,7 @@
                     <div class="gallery">
                         <img src="img/medical/sm-5.jpg" alt="gallery-img" class="img-responsive">
                         <div class="gallery-overlay">
-                            <p><a href="img/medical/sm-5.jpg" class="show-image"><i class="pe-7s-plus"></i></a></p>
+                            <p><a href="advancedShowstudent3.php" ><i class="pe-7s-plus"></i></a></p>
                         </div>
                     </div>
                 </div><!--col-->
@@ -41,8 +41,7 @@
                     <div class="gallery">
                         <img src="img/medical/sm-4.jpg" alt="gallery-img" class="img-responsive">
                         <div class="gallery-overlay">
-                            <p><a href="img/medical/sm-4.jpg" class="show-image"><i class="pe-7s-plus"></i></a></p>
-                        </div>
+                            <p><a href="advancedShowstudent4.php" ><i class="pe-7s-plus"></i></a></p> </div>
                     </div>
                 </div><!--col-->
             </div>
