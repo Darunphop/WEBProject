@@ -4,7 +4,7 @@
 
 
 	/**********************image upload***********************/
-	$target_dir = "img/teacher/";
+	$target_dir = "img/staff/";
 	$target_file = $target_dir . basename($_FILES["image"]["name"]);
 	$imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
 	
@@ -49,11 +49,11 @@
 		$_POST["computerLanguage"]="";//กำหนดค่าให้ตัวแปร ป้องกัน notice
 	}
 
-	$sql = "INSERT INTO teacher (position_ENG,name_ENG,surname_ENG,position_TH,name_TH,surname_TH,graduate,specialist,email,phone,img)
-            VALUES ('".$_POST["position_ENG"]."', '".$_POST["graduate"]."','".$_POST["surname_ENG"]."','".$_POST["position_TH"]."','".$_POST["name_TH"]."','".$_POST["surname_TH"]."','".$_POST["graduate"]."','".$_POST["specialist"]."','".$_POST["email"]."','".$_POST["phone"]."','".$target_file."')";
+	$sql = "INSERT INTO staff (position_TH,name_TH,surname_TH,email,img)
+            VALUES ('".$_POST["position_TH"]."','".$_POST["name_TH"]."','".$_POST["surname_TH"]."','".$_POST["email"]."','".$target_file."')";
 
 	if ($conn->query($sql) === TRUE) {
-		header('Location:teacherform.php');
+		header('Location:staffform.php');
 	} else {
 		echo "Error: " . $sql . "<br>" . $conn->error;
 	}

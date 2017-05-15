@@ -15,7 +15,8 @@
 	
 	$sql = "SELECT * FROM teacher";
 	$result = $conn->query($sql);
-	
+	$sql2 = "SELECT * FROM staff";
+	$result2 = $conn->query($sql2);
 	
 ?>
 
@@ -53,93 +54,24 @@
                         </div><!--team desc-->
                     </div><!--project post-->
 					<?php endwhile; ?>
-                    
+                    <?php while($row = $result2->fetch_assoc()): ?>
 					<div class="project-post staff">
+						<div class="box bg-color-0">
+						<div class="box-img border-color-0 text-center">
                        <div class="item-img-wrap ">
-                            <img src="img/medical/team-2.png" class="img-responsive" alt="team">
+                            <img src=<?=$row["img"]?> alt="image" class="img-responsive">
                             
                         </div> 
                         <div class="team-desc">
-                            <h3><a href="#">Staff  A</a></h3>
+                            <h3><a href="staffprofile.php?id=<?=$row["id"]?>"><?=$row["name_TH"]?> <?=$row["surname_TH"]?></a></h3>
                             <span>Staff</span>
+							</div>
+						</div>
                         </div><!--team desc-->
                     </div><!--project post-->
-
-                    <div class="project-post gynaecological  heart">
-                       <div class="item-img-wrap ">
-                            <img src="img/medical/team-3.png" class="img-responsive" alt="team">
-                            
-                        </div> 
-                        <div class="team-desc">
-                            <h3><a href="#">David nick</a></h3>
-                            <span>Hear specialist</span>
-                        </div><!--team desc-->
-                    </div><!--project post-->
-                    <div class="project-post cardiac  heart">
-                        <div class="item-img-wrap ">
-                            <img src="img/medical/team-3.png" class="img-responsive" alt="team">
-                            
-                        </div> 
-                        <div class="team-desc">
-                            <h3><a href="#">David nick</a></h3>
-                            <span>Hear specialist</span>
-                        </div><!--team desc-->
-                    </div><!--project post-->
-
-                    <div class="project-post cancer ">
-                      <div class="item-img-wrap ">
-                            <img src="img/medical/team-4.png" class="img-responsive" alt="team">
-                            
-                        </div> 
-                        <div class="team-desc">
-                            <h3><a href="#">David nick</a></h3>
-                            <span>Hear specialist</span>
-                        </div><!--team desc-->
-                    </div><!--project post-->
-                    <div class="project-post  gynaecological ">
-                        <div class="item-img-wrap ">
-                            <img src="img/medical/team-1.png" class="img-responsive" alt="team">
-                            
-                        </div> 
-                        <div class="team-desc">
-                            <h3><a href="#">David nick</a></h3>
-                            <span>Hear specialist</span>
-                        </div><!--team desc-->
-                    </div><!--project post-->
-
-                    <div class="project-post  cancer ">
-                        <div class="item-img-wrap ">
-                            <img src="img/medical/team-2.png" class="img-responsive" alt="team">
-                            
-                        </div> 
-                        <div class="team-desc">
-                            <h3><a href="#">David nick</a></h3>
-                            <span>Hear specialist</span>
-                        </div><!--team desc-->
-                    </div><!--project post-->
+					<?php endwhile; ?>
 
 
-                    <div class="project-post   heart">
-                       <div class="item-img-wrap ">
-                            <img src="img/medical/team-4.png" class="img-responsive" alt="team">
-                            
-                        </div> 
-                        <div class="team-desc">
-                            <h3><a href="#">David nick</a></h3>
-                            <span>Hear specialist</span>
-                        </div><!--team desc-->
-                    </div><!--project post-->
-
-                    <div class="project-post  cancer ">
-                       <div class="item-img-wrap ">
-                            <img src="img/medical/team-3.png" class="img-responsive" alt="team">
-                            
-                        </div> 
-                        <div class="team-desc">
-                            <h3><a href="#">David nick</a></h3>
-                            <span>Hear specialist</span>
-                        </div><!--team desc-->
-                    </div><!--project post-->
                 </div>
             </div>
         </div><!--container-->
