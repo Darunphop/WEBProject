@@ -3,26 +3,7 @@
 
 
 
-	/**********************image upload***********************/
-	$target_dir = "img/";
-	$target_file = $target_dir . basename($_FILES["img"]["name"]);
-	$imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
-	
-	/*************************ตรวจสอบว่าเป็น file ที่ upload เป็นรูปภาพ***********************************/
-	if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
-&& $imageFileType != "gif" ) {
-    	echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
-    	exit(1);
-    } else {
-    /*******************************ตรวจสอบว่า upload file สำเร็จหรือไม่********************************/
-		if (move_uploaded_file($_FILES["img"]["tmp_name"], $target_file)) {
-			//echo "The file ". basename( $_FILES["image"]["name"]). " has been uploaded.";
-		} else {
-			echo "Sorry, there was an error uploading your file.";
-			exit(1);
-		}
-}
-	/**********************end image upload**********************/
+
 	
 	
 	/**************************connect database*********************************/
@@ -48,6 +29,34 @@
 	{
 		$_POST["computerLanguage"]="";//กำหนดค่าให้ตัวแปร ป้องกัน notice
 	}
+	
+		/**********************image upload***********************/
+	if($_POST["cpe_group"]==22){
+		$target_dir = "img/student4/";}
+		else if($_POST["cpe_group"]==23){
+		$target_dir = "img/student3/";}
+		elseif($_POST["cpe_group"]==24){
+		$target_dir = "img/student2/";}
+		else{
+		$target_dir = "img/student1/";}
+	$target_file = $target_dir . basename($_FILES["img"]["name"]);
+	$imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
+	
+	/*************************ตรวจสอบว่าเป็น file ที่ upload เป็นรูปภาพ***********************************/
+	if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
+&& $imageFileType != "gif" ) {
+    	echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
+    	exit(1);
+    } else {
+    /*******************************ตรวจสอบว่า upload file สำเร็จหรือไม่********************************/
+		if (move_uploaded_file($_FILES["img"]["tmp_name"], $target_file)) {
+			//echo "The file ". basename( $_FILES["image"]["name"]). " has been uploaded.";
+		} else {
+			echo "Sorry, there was an error uploading your file.";
+			exit(1);
+		}
+}
+	/**********************end image upload**********************/
 
 	if($_POST["cpe_group"]==22){
 	$sql = "INSERT INTO student4 (student_ID,name_TH,surname_TH,nick_name,name_ENG,surname_ENG,garduate,cpe_group,entrance,email,advisor,img)

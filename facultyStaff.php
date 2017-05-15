@@ -42,7 +42,7 @@
 					<?php while($row = $result->fetch_assoc()): ?>
                     <div class="project-post cardiac  teacher ">
                         <div class="box bg-color-0">
-						<div class="box-img border-color-0 text-center">
+						<div class="box-img2 border-color-0 text-center">
 						<div class="item-img-wrap ">
                             <img src=<?=$row["img"]?> alt="image" class="img-responsive">
                         </div> 
@@ -57,7 +57,7 @@
                     <?php while($row = $result2->fetch_assoc()): ?>
 					<div class="project-post staff">
 						<div class="box bg-color-0">
-						<div class="box-img border-color-0 text-center">
+						<div class="box-img2 border-color-0 text-center">
                        <div class="item-img-wrap ">
                             <img src=<?=$row["img"]?> alt="image" class="img-responsive">
                             
