@@ -4,38 +4,33 @@
   <div class="fullwidthbanner">
     <div class="tp-banner">
         <ul>
+        	 <!-- SLIDE -->
+            <li data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Quality Services">
+                <!-- MAIN IMAGE -->
+                <img src="img/home/show1.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+			</li>
+
             <!-- SLIDE -->
             <li data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Care your family">
                 <!-- MAIN IMAGE -->
-                <img src="img/medical/bg-1.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                <img src="img/home/show2.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                 <div class="caption slider-title dark sft"
                      data-x="50"
                      data-y="160"
                      data-speed="1000"
                      data-start="1000"
                      data-easing="easeOutExpo">
-                    We Care about <br>
-                    <span class="colored-text">Your Family</span>
+                     <br>
+                    <span class="colored-text-home">รายชื่อนักศึกษา</span>
                 </div>
 
-
-
-                <div class="caption slider-caption dark sfl"
-                     data-x="50"
-                     data-y="310"
-                     data-speed="1000"
-                     data-start="1800"
-                     data-easing="easeOutExpo">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.  <br>
-                    lectus. Cras porta nisl at tincidunt tincidunt.  
-                </div>
                 <div class="caption sfb rev-buttons tp-resizeme"
                      data-x="50"
                      data-y="380"
                      data-speed="500"
                      data-start="1800"
                      data-easing="Sine.easeOut">
-                    <a href="#" class="btn btn-theme-bg btn-lg">Learn more <i class="pe-7s-right-arrow"></i></a>
+                    <a href="studentIndex.php" class="btn btn-theme-bg btn-lg">view more<i class="pe-7s-right-arrow"></i></a>
                 </div>
 
 
@@ -44,7 +39,7 @@
             <!-- SLIDE -->
             <li data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Solid team">
                 <!-- MAIN IMAGE -->
-                <img src="img/medical/bg-2.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                <img src="img/home/show3.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
 
 
@@ -54,66 +49,18 @@
                      data-speed="1000"
                      data-start="1000"
                      data-easing="easeOutExpo">
-                    Experienced team that<br>
-                    <span class="colored-text">You can trust</span>
+                  	<br>
+                  	<span class="colored-text-home">รายชื่อบุคลากร</span>
                 </div>
 
-
-
-                <div class="caption slider-caption light sfl"
-                     data-x="50"
-                     data-y="310"
-                     data-speed="1000"
-                     data-start="1800"
-                     data-easing="easeOutExpo">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.  <br>
-                    lectus. Cras porta nisl at tincidunt tincidunt.  
-                </div>
                 <div class="caption sfb rev-buttons tp-resizeme"
                      data-x="50"
                      data-y="380"
                      data-speed="500"
                      data-start="1800"
                      data-easing="Sine.easeOut">
-                    <a href="#" class="btn btn-theme-bg btn-lg">Meet the doctors <i class="pe-7s-right-arrow"></i></a>
+                    <a href="facultyStaff.php" class="btn btn-theme-bg btn-lg">view more<i class="pe-7s-right-arrow"></i></a>
                 </div>
-            </li>
-            <!-- SLIDE -->
-            <li data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Quality Services">
-                <!-- MAIN IMAGE -->
-                <img src="img/medical/bg-4.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-
-
-                <div class="caption slider-title dark sft"
-                     data-x="50"
-                     data-y="200"
-                     data-speed="1000"
-                     data-start="1000"
-                     data-easing="easeOutExpo">
-                    Top <span class="colored-text">quality services</span>
-
-                </div>
-
-
-
-                <div class="caption slider-caption dark sfl"
-                     data-x="50"
-                     data-y="290"
-                     data-speed="1000"
-                     data-start="1800"
-                     data-easing="easeOutExpo">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.  <br>
-                    lectus. Cras porta nisl at tincidunt tincidunt.  
-                </div>
-                <div class="caption sfb rev-buttons tp-resizeme"
-                     data-x="50"
-                     data-y="360"
-                     data-speed="500"
-                     data-start="1800"
-                     data-easing="Sine.easeOut">
-                    <a href="#" class="btn btn-theme-bg btn-lg">View Services <i class="pe-7s-right-arrow"></i></a>
-                </div>
-
             </li>
         </ul>
     </div>
