@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-sm-6 col-md-3 margin20 ">
                     <div class="gallery">
-                        <img src="img/medical/sm-1.jpg" alt="gallery-img" class="img-responsive">
+                        <img src="img/year/CPEYear.png" alt="gallery-img" class="img-responsive">
                         <div class="gallery-overlay">
                             <p><a href="advancedShowstudent1.php" ><i class="pe-7s-plus"></i></a></p>
                         </div>

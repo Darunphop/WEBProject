@@ -19,12 +19,12 @@
                 <div class="col-md-8">
                     <div class="contact-form-col">
                         <h3>Keep in touch with us</h3>
-                        <form name="sentMessage" id="contactForm" method="post" novalidate>
+                        <form action="mail/contact_me.php" name="sentMessage" id="contactForm" method="post" novalidate>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="row control-group">
                                         <div class="form-group col-xs-12 controls">                                        
-                                            <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                            <input type="text" class="form-control" placeholder="Name" id="name" name="name"required data-validation-required-message="Please enter your name.">
                                             <p class="help-block"></p>
                                         </div>
                                     </div>
@@ -33,7 +33,7 @@
                                 <div class="col-md-6">
                                     <div class="row control-group">
                                         <div class="form-group col-xs-12 controls">                                          
-                                            <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                            <input type="email" class="form-control" placeholder="Email Address" id="email" name="email"required data-validation-required-message="Please enter your email address.">
                                             <p class="help-block"></p>
                                         </div>
                                     </div> 
@@ -41,13 +41,13 @@
                             </div>
                             <div class="row control-group">
                                 <div class="form-group col-xs-12  controls">                                  
-                                    <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <input type="tel" class="form-control" placeholder="Phone Number" id="phone" name="phone" required data-validation-required-message="Please enter your phone number.">
                                     <p class="help-block"></p>
                                 </div>
                             </div>
                             <div class="row control-group">
                                 <div class="form-group col-xs-12 controls">                                  
-                                    <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea rows="5" class="form-control" placeholder="Message" id="message" name="message" required data-validation-required-message="Please enter a message."></textarea>
                                     <p class="help-block"></p>
                                 </div>
                             </div>

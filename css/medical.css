@@ -502,7 +502,8 @@ SOCIAL BUTTONS
   overflow: hidden;
   display: inline-block;
   text-align: center;
-  border: 1px solid #AAA; }
+  border: 1px solid #AAA; 
+  target: _blank;}
   .social-icon-sm:hover {
     border-color: transparent; }
 

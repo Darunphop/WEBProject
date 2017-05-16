@@ -16,7 +16,7 @@
   <link href="css/owl.theme.css" rel="stylesheet">
   <link href="css/flexslider.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <!-- <link href="css/style.css" rel="stylesheet"> -->
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
   <!--Revolution slider css-->
@@ -39,23 +39,23 @@
     <div class="top-bar">
         <div class="row">
             <div class="col-md-7 hidden-xs hidden-sm">
-                <span><i class="pe-7s-phone"></i> +01 1800 696 55</span>
+                <span><i class="pe-7s-phone"></i> +66  5394 2023</span>
             </div>
             <div class="col-md-5 text-right">
                 <div class="top-bar-right">
-                    <a href="#" class="social-icon-sm si-border-round si-facebook">
+                    <a href="https://www.facebook.com/ComputerEngineeringCMU" target="_blank" class="social-icon-sm si-border-round si-facebook">
                         <i class="fa fa-facebook"></i>
                         <i class="fa fa-facebook"></i>
                     </a>
-                    <a href="#" class="social-icon-sm si-border-round si-twitter">
+                    <a href="https://twitter.com/cpecmu" target="_blank" class="social-icon-sm si-border-round si-twitter">
                         <i class="fa fa-twitter"></i>
                         <i class="fa fa-twitter"></i>
                     </a>
-                    <a href="#" class="social-icon-sm si-border-round si-g-plus">
+                    <a href="https://www.youtube.com/user/CPECMU" target="_blank" class="social-icon-sm si-border-round si-g-plus">
                         <i class="fa fa-youtube-play"></i>
                         <i class="fa fa-youtube-play"></i>
                     </a>
-                    <a href="#" class="appointment">กดไปเถอะ ไม่มีอะไรหรอก</a>
+                    <a href="administrator.php" class="appointment">กดไปเถอะ ไม่มีอะไรหรอก</a>
                 </div>
 
             </div>
