@@ -16,7 +16,7 @@
   <link href="css/owl.theme.css" rel="stylesheet">
   <link href="css/flexslider.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
-  <!-- <link href="css/style.css" rel="stylesheet"> -->
+  <link href="css/style.css" rel="stylesheet">
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
   <!--Revolution slider css-->
