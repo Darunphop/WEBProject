@@ -34,24 +34,22 @@
         <div class="container">
             <div class="row">
 				<?php while($row = $result->fetch_assoc()): ?>
-                <div class="col-sm-6 col-md-3 margin20 ">
-				<div class="box bg-color-1">
-				 <div class="box-img border-color-4 text-center">
-                        <div class="gallery"><a  href="teacherprofile.php?id=<?=$row["id"]?>">
-						<img  src=<?=$row["img"]?> alt="image" class="img-responsive">	  
-                        </div>
-						<div class="box-info">
-						<br>
-                                <h4><a href="teacherprofile.php?id=<?=$row["id"]?>"><?=$row["name_TH"]?> <?=$row["surname_TH"]?></a></h4>
-								<h5><a href="teacherprofile.php?id=<?=$row["id"]?>"><?=$row["name_ENG"]?> <?=$row["surname_ENG"]?></a></h5>
-								<h5><a href="teacherprofile.php?id=<?=$row["id"]?>"><?=$row["email"]?> <br><?=$row["phone"]?></a></h5>
-                        </div>
-                 </div>
-
-                    
-                 </div>
-                </div><!--col-->
-			<?php endwhile; ?>
+					<div class="col-sm-6 col-md-3 margin20 ">
+						<div class="box bg-color-1">
+							<div class="box-img border-color-4 text-center">
+								<div class="gallery"><a  href="teacherprofile.php?id=<?=$row["id"]?>">
+									<img  src=<?=$row["img"]?> alt="image" class="img-responsive">	  
+								</div>
+								<div class="box-info">
+									<br>
+									<h4><a href="teacherprofile.php?id=<?=$row["id"]?>"><?=$row["name_TH"]?> <?=$row["surname_TH"]?></a></h4>
+									<h5><a href="teacherprofile.php?id=<?=$row["id"]?>"><?=$row["name_ENG"]?> <?=$row["surname_ENG"]?></a></h5>
+									<h5><a href="teacherprofile.php?id=<?=$row["id"]?>"><?=$row["email"]?> <br><?=$row["phone"]?></a></h5>
+								</div>
+							</div>	
+						</div>
+					</div><!--col-->
+				<?php endwhile; ?>
               
                
                 

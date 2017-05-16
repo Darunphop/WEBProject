@@ -32,9 +32,9 @@
                   <div class="col-sm-8 col-xs-12">
                     <div class="teachersInfo">
                           <h3><?=$row["name_TH"]?> <?=$row["surname_TH"]?></h3>
-                          <div class="teachersProfession bg-color-1">ตำแหน่ง</div>
+                          <div class="teachersProfession bg-color-8">ตำแหน่ง</div>
                           <div class="professionDetails"><?=$row["position_TH"]?></div>
-						  <div class="teachersProfession bg-color-5">ติดต่อ</div>
+						  <div class="teachersProfession bg-color-8">ติดต่อ</div>
                           <div class="professionDetails"><?=$row["email"]?></div>
                     </div>
                   </div>

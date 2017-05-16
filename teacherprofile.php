@@ -33,15 +33,15 @@
                     <div class="teachersInfo">
                           <h3><?=$row["name_TH"]?> <?=$row["surname_TH"]?></h3>
                           <h3><?=$row["name_ENG"]?> <?=$row["surname_ENG"]?></h3>
-                          <div class="teachersProfession bg-color-1">ตำแหน่ง</div>
+                          <div class="teachersProfession bg-color-8">ตำแหน่ง</div>
                           <div class="professionDetails"><?=$row["position_TH"]?></div>
-						  <div class="teachersProfession bg-color-2">position</div>
+						  <div class="teachersProfession bg-color-8">position</div>
                           <div class="professionDetails"><?=$row["position_ENG"]?></div>
-                          <div class="teachersProfession bg-color-3">สำเร็จการศึกษาจาก</div>
+                          <div class="teachersProfession bg-color-8">สำเร็จการศึกษาจาก</div>
                           <div class="professionDetails2"><?=$row["graduate"]?></div>
-                          <div class="teachersProfession bg-color-4">เชี่ยวชาญด้าน</div>
+                          <div class="teachersProfession bg-color-8">เชี่ยวชาญด้าน</div>
                           <div class="professionDetails2"><?=$row["specialist"]?></div>
-						  <div class="teachersProfession bg-color-5">ติดต่อ</div>
+						  <div class="teachersProfession bg-color-8">ติดต่อ</div>
                           <div class="professionDetails"><?=$row["email"]?></div>
 						  <div class="professionDetails"><?=$row["phone"]?></div>
                     </div>

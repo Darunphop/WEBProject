@@ -453,6 +453,28 @@ a:focus {
   background-color: #2f3c43;
 }
 
+.color-8 {
+  color: #32c5d2 !important;
+}
+
+.bg-color-8 {
+  background-color: #32c5d2 !important;
+}
+
+.border-color-8 {
+  border-color: #32c5d2 !important;
+}
+.color-9 {
+  color: #abcc08 !important;
+}
+
+.bg-color-9 {
+  background-color: #abcc08 !important;
+}
+
+.border-color-9 {
+  border-color: #abcc08 !important;
+}
 .full-width {
   padding-right: 15px;
   padding-left: 15px;
@@ -3630,7 +3652,7 @@ footer .color-bar {
 }
 
 .teachersInfo h3 {
-  color: #ea7066;
+  color: #505050;
   text-transform: capitalize;
   font-family: 'Dosis', sans-serif;
   font-weight: 700;
@@ -4667,6 +4689,59 @@ footer .color-bar {
   transition: all 0.3s ease-in-out;
   z-index: 1;
 }
+.box-img3 {
+  height: 250px;	
+  border-radius: 12px 12px 0 0;
+  border: 4px solid transparent;
+  background: #ffffff;
+  padding: 30px 0;
+  position: relative;
+}
+.box-img3 img {
+  border-radius: 12px 12px 0 0;
+  display: inline-block;
+  margin: 0 auto;
+  max-height: 132px;
+}
+.box-img3 .btn-block {
+  position: absolute;
+  bottom: 0;
+  height: 55px;
+  line-height: 55px;
+  color: #ffffff;
+  background: #ea7066;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -moz-transform: translate(0%, 50%);
+  -o-transform: translate(0%, 50%);
+  -ms-transform: translate(0%, 50%);
+  -webkit-transform: translate(0%, 50%);
+  transform: translate(0%, 50%);
+  z-index: -1;
+}
+.box-img3 .btn-block i {
+  margin-right: 7px;
+}
+
+.box:hover .box-img3 .btn-block {
+  -moz-transform: translate(0%, 0%);
+  -o-transform: translate(0%, 0%);
+  -ms-transform: translate(0%, 0%);
+  -webkit-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+}
 .box-info {
   fix-padding: 30px;
   
@@ -4674,13 +4749,13 @@ footer .color-bar {
 .box-info h4 {
   font-family: 'Dosis', sans-serif;
   font-size: 20px;
-  color: black;
+  color: #505050;
   text-transform: capitalize;
   margin-bottom: 15px;
   font-weight: 700;
 }
 .box-info h4 a {
-  color: black;
+  color: #505050;
 }
 .box-info .btn-primary {
   font-size: 14px;

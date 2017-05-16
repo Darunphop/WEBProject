@@ -29,22 +29,22 @@
                     </div>
                   </div>
                   <div class="col-sm-8 col-xs-12">
-                    <div class="studentInfo">
+                    <div class="teachersInfo">
                           <h3><?=$row["name_TH"]?> <?=$row["surname_TH"]?></h3>
 						  <h3><?=$row["name_ENG"]?> <?=$row["surname_ENG"]?></h3>
-						  <div class="teachersProfession bg-color-1">ชื่อเล่น</div>
+						  <div class="teachersProfession bg-color-8">ชื่อเล่น</div>
                           <div class="professionDetails"><?=$row["nick_name"]?></div>
-                          <div class="teachersProfession bg-color-2">รหัสนักศึกษา</div>
+                          <div class="teachersProfession bg-color-8">รหัสนักศึกษา</div>
                           <div class="professionDetails"><?=$row["student_ID"]?></div>
-                          <div class="teachersProfession bg-color-3">รุ่นที่</div>
+                          <div class="teachersProfession bg-color-8">รุ่นที่</div>
                           <div class="professionDetails"><?=$row["cpe_group"]?></div>
-						  <div class="teachersProfession bg-color-4">email</div>
+						  <div class="teachersProfession bg-color-8">email</div>
                           <div class="professionDetails"><?=$row["email"]?></div>
-						  <div class="teachersProfession bg-color-5">อาจารย์ที่ปรึกษา</div>
+						  <div class="teachersProfession bg-color-8">อาจารย์ที่ปรึกษา</div>
                           <div class="professionDetails"><?=$row["advisor"]?></div>
-						  <div class="teachersProfession bg-color-6">ช่องทางการเข้าศึกษา</div>
+						  <div class="teachersProfession bg-color-8">ช่องทางการเข้าศึกษา</div>
                           <div class="professionDetails"><?=$row["entrance"]?></div>
-                          <div class="teachersProfession bg-color-7">จบการศึกษาจาก</div>
+                          <div class="teachersProfession bg-color-8">จบการศึกษาจาก</div>
                           <div class="professionDetails"><?=$row["garduate"]?></div>
 
                     </div>
