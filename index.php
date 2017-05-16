@@ -14,27 +14,16 @@
             <li data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Care your family">
                 <!-- MAIN IMAGE -->
                 <img src="img/home/show2.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+
+
+
                 <div class="caption slider-title dark sft"
                      data-x="50"
                      data-y="160"
                      data-speed="1000"
                      data-start="1000"
                      data-easing="easeOutExpo">
-                     <br>
-                    <span class="colored-text-home">รายชื่อนักศึกษา</span>
                 </div>
-
-                <div class="caption sfb rev-buttons tp-resizeme"
-                     data-x="50"
-                     data-y="380"
-                     data-speed="500"
-                     data-start="1800"
-                     data-easing="Sine.easeOut">
-                    <a href="studentIndex.php" class="btn btn-theme-bg btn-lg">view more<i class="pe-7s-right-arrow"></i></a>
-                </div>
-
-
-
             </li>
             <!-- SLIDE -->
             <li data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Solid team">
@@ -49,17 +38,6 @@
                      data-speed="1000"
                      data-start="1000"
                      data-easing="easeOutExpo">
-                  	<br>
-                  	<span class="colored-text-home">รายชื่อบุคลากร</span>
-                </div>
-
-                <div class="caption sfb rev-buttons tp-resizeme"
-                     data-x="50"
-                     data-y="380"
-                     data-speed="500"
-                     data-start="1800"
-                     data-easing="Sine.easeOut">
-                    <a href="facultyStaff.php" class="btn btn-theme-bg btn-lg">view more<i class="pe-7s-right-arrow"></i></a>
                 </div>
             </li>
         </ul>
@@ -70,199 +48,57 @@
         <div class="container">
             <div class="row center-title">
                 <div class="col-md-8 col-md-offset-2 clearfix text-center wow animated fadeInUp">
-                    <h2>Health and Medical HTML5 Theme</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                    </p>
-                    <!--                   -->
+                    <h2>ยินดีต้อนรับสู่วิศวกรรมศาสตร์สาขาคอมพิวเตอร์</h2>
                 </div>
             </div>
             <div class="row">
+                <a href="facultyStaff.php">
                 <div class="col-sm-6 col-md-3 margin30">
                     <div class="service-box wow animated fadeIn" data-wow-delay="0.1s">
-                        <i class="pe-7s-paint-bucket"></i>
-                        <h4>Special care unit</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt. 
-                        </p>
+                        <i class="pe-7s-users"></i>
+                        <h4>รายชื่อบุคลากร</h4>
+                        <p>รวมรายชื่อบุคลากรและคณาจารย์<br>คณะวิศวะกรรมศาสตร์สาขาคอมพิวเตอร์</p>
                     </div>
                 </div><!--service column-->
+                </a>
+
+                <a href="studentIndex.php">
                 <div class="col-sm-6 col-md-3 margin30">
                     <div class="service-box wow animated fadeIn" data-wow-delay="0.2s">
                         <i class="pe-7s-users"></i>
-                        <h4>Caring Staff</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt. 
-                        </p>
+                        <h4>รายชื่อนักศึกษา</h4>
+                        <p>รวมรายชื่อนักศึกษา<br>คณะวิศวะกรรมศาสตร์สาขาคอมพิวเตอร์</p>
                     </div>
                 </div><!--service column-->
+                </a>
+
+                 <a href="about.php">
                 <div class="col-sm-6 col-md-3 margin30">
                     <div class="service-box wow animated fadeIn" data-wow-delay="0.3s">
                         <i class="pe-7s-loop"></i>
-                        <h4>Medical Counseling</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt. 
-                        </p>
+                        <h4>เกี่ยวกับภาควิชา</h4>
+                        <p>รายละอียดการเรียนการสอน<br>ในวิศวกรรมศาสตร์สาขาคอมพิวเตอร์</p>
                     </div>
                 </div><!--service column-->
+                </a>
+
+                <a href="contact.php">
                 <div class="col-sm-6 col-md-3 margin30">
                     <div class="service-box wow animated fadeIn" data-wow-delay="0.4s">
                         <i class="pe-7s-call"></i>
-                        <h4>Emergency Services </h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt. 
-                        </p>
+                        <h4>ติดต่อเรา</h4>
+                        <p>ช่องทางการติดต่อ ที่สำนักงานวิศวกรรมศาสตร์สาขาคอมพิวเตอร์</p>
                     </div>
                 </div><!--service column-->
-            </div>
-            <div class="divide20"></div>
-            <div class="text-center">
-                <a href="#" class="btn btn-lg btn-theme-bg">View our Services <i class="pe-7s-right-arrow"></i></a>
+                </a>
             </div>
         </div>
-        <div class="divide60"></div>
-
-        <div class="team-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2">
-                        <div class="center-title">
-                            <i class="pe-7s-users"></i>
-                            <h2>Meet our <strong>Medical Specialists</strong></h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 col-sm-3 margin30">
-                        <div class="team-col wow animated fadeInLeft" data-wow-delay="0.1s">
-                            <a href="#"><img src="img/medical/team-1.png" class="img-responsive" alt=""></a>
-                            <div class="divide20"></div>
-                            <h3>Dr. Rayan Scott</h3>
-                            <em>Cancer Specialist</em>
-                            <div class="divide20"></div>
-                            <ul class="list-inline">
-                                <li>
-                                    <a href="#" class="social-icon social-icon-sm si-border-round si-facebook">
-                                        <i class="fa fa-facebook"></i>
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="social-icon social-icon-sm  si-border-round si-twitter">
-                                        <i class="fa fa-twitter"></i>
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="social-icon social-icon-sm  si-border-round si-linkedin">
-                                        <i class="fa fa-linkedin"></i>
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div><!--team col-->
-                    </div><!--col-md-3 col-sm-6--> 
-                    <div class="col-sm-6 col-sm-3 margin30">
-                        <div class="team-col wow animated fadeInLeft" data-wow-delay="0.2s">
-                            <a href="#"><img src="img/medical/team-2.png" class="img-responsive" alt=""></a>
-                            <div class="divide20"></div>
-                            <h3>Dr. Dale Smith</h3>
-                            <em>Cancer Specialist</em>
-                            <div class="divide20"></div>
-                            <ul class="list-inline">
-                                <li>
-                                    <a href="#" class="social-icon social-icon-sm si-border-round si-facebook">
-                                        <i class="fa fa-facebook"></i>
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="social-icon social-icon-sm  si-border-round si-twitter">
-                                        <i class="fa fa-twitter"></i>
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="social-icon social-icon-sm  si-border-round si-linkedin">
-                                        <i class="fa fa-linkedin"></i>
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div><!--team col-->
-                    </div><!--col-md-3 col-sm-6-->
-                    <div class="col-sm-6 col-sm-3 margin30">
-                        <div class="team-col wow animated fadeInLeft" data-wow-delay="0.3s">
-                            <a href="#"><img src="img/medical/team-3.png" class="img-responsive" alt=""></a>
-                            <div class="divide20"></div>
-                            <h3>Dr. Nikita Merry</h3>
-                            <em>Dental Specialist</em>
-                            <div class="divide20"></div>
-                            <ul class="list-inline">
-                                <li>
-                                    <a href="#" class="social-icon social-icon-sm si-border-round si-facebook">
-                                        <i class="fa fa-facebook"></i>
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="social-icon social-icon-sm  si-border-round si-twitter">
-                                        <i class="fa fa-twitter"></i>
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="social-icon social-icon-sm  si-border-round si-linkedin">
-                                        <i class="fa fa-linkedin"></i>
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div><!--team col-->
-                    </div><!--col-md-3 col-sm-6-->
-                    <div class="col-sm-6 col-sm-3 margin30">
-                        <div class="team-col wow animated fadeInLeft" data-wow-delay="0.4s">
-                            <a href="#"><img src="img/medical/team-4.png" class="img-responsive" alt=""></a>
-                            <div class="divide20"></div>
-                            <h3>Dr. Seema Sharma</h3>
-                            <em>Cancer Specialist</em>
-                            <div class="divide20"></div>
-                            <ul class="list-inline">
-                                <li>
-                                    <a href="#" class="social-icon social-icon-sm si-border-round si-facebook">
-                                        <i class="fa fa-facebook"></i>
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="social-icon social-icon-sm  si-border-round si-twitter">
-                                        <i class="fa fa-twitter"></i>
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="social-icon social-icon-sm  si-border-round si-linkedin">
-                                        <i class="fa fa-linkedin"></i>
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div><!--team col-->
-                    </div><!--col-md-3 col-sm-6-->
-                </div>
-            </div>
-        </div><!--team section end-->
-
 
         <section class="know-more">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 margin30">
-                        <h3>Take a tour of our medical facility</h3>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Faculity of  computer engineering</h3>
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe src="http://player.vimeo.com/video/57175742"></iframe>
                         </div>
