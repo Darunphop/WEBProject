@@ -53,10 +53,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 text-center">
-                        <h3>Take a tour of our medical facility</h3>
+                        <h3>Take a tour to our Computer Engineering</h3>
                     </div>
                     <div class="col-md-4 text-center">
-                        <a href="#" class="btn btn-white-border btn-lg">Make an appointment</a>
+                        <a href="contact.php" class="btn btn-white-border btn-lg">Contact Us</a>
                     </div>
                 </div>
             </div>

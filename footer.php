@@ -1,11 +1,9 @@
 <footer class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 margin30">
+                    <div class="col-md-4 margin30">
                         <h3>about the faculty</h3>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
+
                         <ul class="list-unstyled contact-details">
                             <li class="clearfix">
                                 <i class="pe-7s-home"></i>
@@ -54,7 +52,7 @@
                             </a>
                         </div>
                     </div><!--col-->
-                    <div class="col-md-2 margin30">
+<!--                     <div class="col-md-2 margin30">
                         <h3>Quick links</h3>
                         <ul class="list-unstyled quick-links">
                             <li><a href="index.php">Home</a></li>
@@ -66,21 +64,21 @@
                             <li><a href="#">Privacy & policy</a></li>
                             <li><a href="#">Terms & conditions</a></li>
                         </ul>
-                    </div>
-                    <div class="col-md-3 margin30">
+                    </div> -->
+                    <div class="col-md-4 margin30">
                         <h3>Quick Contact</h3>
-                        <form role="form">
+                        <form role="form" action="mail/contact_me.php" method="post">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Name">
+                                <input type="text" class="form-control" name="name" placeholder="Name">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Email">
+                                <input type="text" class="form-control" name="email" placeholder="Email">
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                                <textarea class="form-control" rows="3" name="message" placeholder="Message"></textarea>
                             </div>
                             <div class="form-group text-right">
-                                <button type="button" class="btn btn-theme-bg btn-lg">Submit</button>
+                                <button type="Submit" class="btn btn-theme-bg btn-lg">Submit</button>
                             </div>
                         </form>
                     </div>

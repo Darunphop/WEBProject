@@ -90,9 +90,13 @@ if(empty($_POST['name'])  		||
    empty($_POST['message'])	||
    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
    {
-	echo "No arguments Provided!";
+  echo "<br><br><div class=\"row center-title \">
+              <div class=\"col-md-8 col-md-offset-2 clearfix text-center wow animated fadeInUp\">
+                    <a class=\"btn btn-white-border btn-lg\">No arguments Provided!</a>
+                </div>
+            </div>";
 //	return false;
-   }
+   }else{
 	
 $name = $_POST['name'];
 $email_address = $_POST['email'];
@@ -111,8 +115,18 @@ $headers .= "Reply-To: $email_address";
 // return "mailto:" . $to . "?subject=" . $email_subject . "&body=" . $email_body ;
 
 // }
-echo "<a href='mailto:" . $to . "?subject=" . $email_subject . "&body=" . $email_body . "'>$email_body</a>";
-//return true;	
+// echo "<a href='mailto:" . $to . "?subject=" . $email_subject . "&body=" . $message . "'>$email_body</a>";
+//return true;
+
+echo "<br><br><div class=\"row center-title \">
+                <div class=\"col-md-8 col-md-offset-2 clearfix text-center wow animated fadeInUp\">
+                    <textarea class=\"form-control\">".$message."</textarea>
+                </div>
+              <div class=\"col-md-8 col-md-offset-2 clearfix text-center wow animated fadeInUp\">
+                    <br><a href='mailto:" . $to . "?subject=" . $email_subject . "&body=" . $message . "' class=\"btn btn-white-border btn-lg\">Confirm</a>
+                </div>
+            </div>";
+}
 ?>
 
 <?php require_once("../footer.php"); ?>

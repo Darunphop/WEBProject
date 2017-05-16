@@ -48,7 +48,7 @@
         <div class="container">
             <div class="row center-title">
                 <div class="col-md-8 col-md-offset-2 clearfix text-center wow animated fadeInUp">
-                    <h2>ยินดีต้อนรับสู่วิศวกรรมศาสตร์สาขาคอมพิวเตอร์</h2>
+                    <h2>ยินดีต้อนรับสู่ภาควิชาวิศวกรรมคอมพิวเตอร์</h2>
                 </div>
             </div>
             <div class="row">
