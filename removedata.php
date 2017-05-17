@@ -3,7 +3,7 @@
   $servername = "localhost";
   $username = "root";
   $password = "";
-  $dbname = "phpbasic";
+  $dbname = "group1";
   $conn2 = new mysqli($servername, $username, $password,$dbname);
   mysqli_set_charset($conn2, "utf8");
 	if($_SESSION['UserID'] == "")
@@ -38,7 +38,7 @@
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
-	$dbname = "database";
+	$dbname = "group1";
 	$conn = new mysqli($servername, $username, $password,$dbname);
 	mysqli_set_charset($conn, "utf8");
 

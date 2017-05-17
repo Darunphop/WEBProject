@@ -48,7 +48,7 @@
                     $servername = "localhost";
                     $username = "root";
                     $password = "";
-                    $dbname = "database";
+                    $dbname = "group1";
                     $conn3 = new mysqli($servername, $username, $password,$dbname);
   mysqli_set_charset($conn3, "utf8");
     $table = $_GET["group"];
@@ -215,7 +215,7 @@ $areas = array(
                     $servername = "localhost";
                     $username = "root";
                     $password = "";
-                    $dbname = "database";
+                    $dbname = "group1";
                     $conn2 = new mysqli($servername, $username, $password,$dbname);
   mysqli_set_charset($conn2, "utf8");
                   $sql2 = "SELECT * FROM $table ";
