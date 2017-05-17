@@ -3,11 +3,14 @@
 
 
 
-	/**********************image upload***********************/
+ if (basename($_FILES["image"]["name"]))
+ {
 	$target_dir = "img/staff/";
 	$target_file = $target_dir . basename($_FILES["image"]["name"]);
 	$imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
-	
+		
+
+  
 	/*************************ตรวจสอบว่าเป็น file ที่ upload เป็นรูปภาพ***********************************/
 	if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
 && $imageFileType != "gif" ) {
@@ -22,8 +25,16 @@
 			exit(1);
 		}
 }
+ }
+ else{
+
+ }
+
+
+	/**********************image upload***********************/
+
 	/**********************end image upload**********************/
-	
+
 	
 	/**************************connect database*********************************/
 	
@@ -48,12 +59,36 @@
 	{
 		$_POST["computerLanguage"]="";//กำหนดค่าให้ตัวแปร ป้องกัน notice
 	}
+if($_GET['id'])
+{
 
-	$sql = "INSERT INTO staff (position_TH,name_TH,surname_TH,email,img)
+if(!basename($_FILES["image"]["name"])){
+	
+$sql = "UPDATE staff SET ";
+$sql .="position_TH = '".$_POST["position_TH"]."' ";
+$sql .=",name_TH = '".$_POST["name_TH"]."' ";
+$sql .=",surname_TH = '".$_POST["surname_TH"]."' ";
+$sql .=",email = '".$_POST["email"]."' ";
+$sql .="WHERE id = '".$_GET["id"]."' ";
+
+
+}else{
+
+	echo $target_file;
+$sql = "UPDATE staff SET ";
+$sql .="position_TH = '".$_POST["position_TH"]."' ";
+$sql .=",name_TH = '".$_POST["name_TH"]."' ";
+$sql .=",surname_TH = '".$_POST["surname_TH"]."' ";
+$sql .=",email = '".$_POST["email"]."' ";
+$sql .=",img = '".$target_file."' ";
+$sql .="WHERE id = '".$_GET["id"]."' ";
+}
+}else{
+$sql = "INSERT INTO staff (position_TH,name_TH,surname_TH,email,img)
             VALUES ('".$_POST["position_TH"]."','".$_POST["name_TH"]."','".$_POST["surname_TH"]."','".$_POST["email"]."','".$target_file."')";
-
+}
 	if ($conn->query($sql) === TRUE) {
-		header('Location:staffform.php');
+		header('Location:staffform.php?id=');
 	} else {
 		echo "Error: " . $sql . "<br>" . $conn->error;
 	}
