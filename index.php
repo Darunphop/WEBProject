@@ -100,9 +100,7 @@
                     <div class="col-sm-6 margin30">
                         <h3>Faculity of  computer engineering</h3>
                         <div class="embed-responsive embed-responsive-16by9">
-                            <video controls>
-                                <source src="video/video_1.mp4" type="video/mp4">                            
-                            </video>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/sxQPBLO_4yk" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="col-sm-6 margin30">
