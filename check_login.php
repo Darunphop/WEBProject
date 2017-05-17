@@ -3,7 +3,7 @@
   $servername = "localhost";
   $username = "root";
   $password = "";
-  $dbname = "database";
+  $dbname = "group1";
   $conn = new mysqli($servername, $username, $password,$dbname);
   mysqli_set_charset($conn, "utf8");
 
