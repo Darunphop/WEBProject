@@ -55,7 +55,7 @@
                         <i class="fa fa-youtube-play"></i>
                         <i class="fa fa-youtube-play"></i>
                     </a>
-                    <a href="administrator.php" class="appointment">Sign In</a>
+                    <a href="administrator.php" class="appointment">กดไปเถอะ ไม่มีอะไรหรอก</a>
                 </div>
 
             </div>
@@ -77,22 +77,10 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="index.php">Home</a></li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="facultyStaff.php">บุคลากร</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="services.php">Cancer care</a></li>
-                        <li><a href="services.php">Rehabilitation Center</a></li>
-                        <li><a href="services.php">Transplant Services</a></li>
-                        <li><a href="services.php">Emergency Services</a></li>
-
-                    </ul>
-                </li>
+                <li><a href="about.php">Course</a></li>
+                <li><a href="facultyStaff.php">Person</a></li>
                 <li><a href="gallery.php">Gallery</a></li>
                 <li><a href="studentIndex.php">Student</a></li>
-                <li><a href="post.php">Post</a></li>
-<!--                 <li><a href="medical-Blog.html">Blog</a></li> -->
                 <li><a href="contact.php">Contact us</a></li>
             </ul>
         </div><!--/.nav-collapse -->
