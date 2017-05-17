@@ -173,4 +173,26 @@
         </section>
         <!--know more section end-->
 
+    <section class="testimonials">
+        <div class="container">
+                <div class="center-title">
+                    <i class="pe-7s-comment"></i> 
+                    <h2>head of department computer engineering</h2>                     
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 text-center">
+                        <div class="testi-slides">
+                            <ul class="slides">
+                                <li>
+                                    <img src="img/home/master-teacher.png" alt="img">
+                                    <h4>รศ.ดร.ศันสนีย์ เอื้อพันธ์วิริยะกุล</h4>
+                                    <em>Sansanee Auephanwiriyakul</em>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--testimonials end-->
 <?php require_once("footer.php"); ?>
