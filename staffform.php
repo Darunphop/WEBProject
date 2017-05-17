@@ -4,7 +4,7 @@
   $servername = "localhost";
   $username = "root";
   $password = "";
-  $dbname = "phpbasic";
+  $dbname = "database";
   $conn = new mysqli($servername, $username, $password,$dbname);
   mysqli_set_charset($conn, "utf8");
  require_once("header.php");
@@ -132,7 +132,7 @@ else{
          	 <div class="col-xs-offset-1 col-xs-10">
              		<div class="panel panel-default formPanel">
                           <div class="panel-heading bg-color-1 border-color-1">
-                            <h3 class="panel-title">Teacher List</h3>
+                            <h3 class="panel-title">Staff List</h3>
                           </div>
                           <div class="panel-body">
             <table style="width:80% ;text-align:center;">

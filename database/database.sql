@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 16, 2017 at 09:26 PM
+-- Generation Time: May 17, 2017 at 07:43 AM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -19,6 +19,32 @@ SET time_zone = "+00:00";
 --
 -- Database: `database`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `member`
+--
+
+CREATE TABLE `member` (
+  `UserID` int(3) UNSIGNED ZEROFILL NOT NULL,
+  `Username` varchar(20) COLLATE utf8_bin NOT NULL,
+  `Password` varchar(20) COLLATE utf8_bin NOT NULL,
+  `Name` varchar(100) COLLATE utf8_bin NOT NULL,
+  `Status` enum('ADMIN','USER') COLLATE utf8_bin NOT NULL DEFAULT 'USER'
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+--
+-- Dumping data for table `member`
+--
+
+INSERT INTO `member` (`UserID`, `Username`, `Password`, `Name`, `Status`) VALUES
+(001, '580610695', '0695', 'EAKKAPHOP WONGSORN', 'ADMIN'),
+(002, '580610629', '0629', 'CHETSADA CHAIPRASOB', 'ADMIN'),
+(003, '580610630', '0630', 'CHALITPHOL KUENSUWAN', 'ADMIN'),
+(004, '580610642', '0642', 'DARUNPHOP PENGKUMTA', 'ADMIN'),
+(005, '580610647', '0647', 'THERATAT SOMPRASERT', 'ADMIN'),
+(006, '580610667', '0667', 'PHUMIPHAT CHIRAPIRIYAKUL', 'ADMIN');
 
 -- --------------------------------------------------------
 
@@ -504,6 +530,13 @@ INSERT INTO `teacher` (`id`, `position_ENG`, `name_ENG`, `surname_ENG`, `positio
 --
 
 --
+-- Indexes for table `member`
+--
+ALTER TABLE `member`
+  ADD PRIMARY KEY (`UserID`),
+  ADD UNIQUE KEY `Username` (`Username`);
+
+--
 -- Indexes for table `staff`
 --
 ALTER TABLE `staff`
@@ -544,10 +577,15 @@ ALTER TABLE `teacher`
 --
 
 --
+-- AUTO_INCREMENT for table `member`
+--
+ALTER TABLE `member`
+  MODIFY `UserID` int(3) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+--
 -- AUTO_INCREMENT for table `staff`
 --
 ALTER TABLE `staff`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 --
 -- AUTO_INCREMENT for table `student1`
 --
