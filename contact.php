@@ -68,7 +68,10 @@
                                 <i class="pe-7s-home"></i>
                             </div>
                             <div class="media-body">
-                                <p>124, Munna wali street, Jaipur, 302012</p>
+                                <p>คณะวิศวกรรมศาสตร์ มหาวิทยาลัยเชียงใหม่
+                                ชั้น4 ตึก30ปี คณะวิศวกรรมศาสตร์</p>    
+                                      <p>239, ถนนห้วยแก้ว ตำบลสุเทพ
+                                      อำเภอเมือง จังหวัดเชียงใหม่, 50200</p>
                             </div>
                         </div><!--media-->
                          <div class="media">
@@ -76,7 +79,7 @@
                                 <i class="pe-7s-mail"></i>
                             </div>
                             <div class="media-body">
-                                <p>support@assan-medical.com</p>
+                                <p>cpe@eng.cmu.ac.th</p>
                             </div>
                         </div><!--media-->
                            <div class="media">
@@ -84,7 +87,12 @@
                                 <i class="pe-7s-call"></i>
                             </div>
                             <div class="media-body">
-                                <p>+01 1800 3459 4543</p>
+                                <p>
+                                    +66 5394 2023
+                                </p>
+                                <p>
+                                    +668 4614 0006
+                                </p>
                             </div>
                         </div><!--media-->
                         <div class="divide30"></div>
