@@ -164,5 +164,17 @@
 
             google.maps.event.addDomListener(window, 'load', initialize);
         </script>
-
+        <dir class="divide30"></dir>
+        <div class="cta">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 text-center">
+                        <h3>go to home page</h3>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <a href="index.php" class="btn btn-white-border btn-lg">go now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 <?php require_once("footer.php"); ?>

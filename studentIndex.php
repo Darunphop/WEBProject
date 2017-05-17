@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-sm-6 col-md-3 margin20 ">
                     <div class="gallery">
-                        <img src="img/year/1.jpg" alt="gallery-img" class="img-responsive">
+                        <img src="img/year/cpecmu-25.jpg" alt="gallery-img" class="img-responsive">
                         <div class="gallery-overlay">
                             <p><a href="advancedShowstudent1.php" ><i class="pe-7s-plus"></i></a></p>
                         </div>
@@ -23,7 +23,7 @@
                 </div><!--col-->
                 <div class="col-sm-6 col-md-3 margin20 ">
                     <div class="gallery">
-                        <img src="img/year/2.jpg" alt="gallery-img" class="img-responsive">
+                        <img src="img/year/cpecmu-24.jpg" alt="gallery-img" class="img-responsive">
                         <div class="gallery-overlay">
                             <p><a href="advancedShowstudent2.php" ><i class="pe-7s-plus"></i></a></p>
                         </div>
@@ -31,7 +31,7 @@
                 </div><!--col-->
                 <div class="col-sm-6 col-md-3 margin20 ">
                     <div class="gallery">
-                        <img src="img/year/3.jpg" alt="gallery-img" class="img-responsive">
+                        <img src="img/year/cpecmu-23.jpg" alt="gallery-img" class="img-responsive">
                         <div class="gallery-overlay">
                             <p><a href="advancedShowstudent3.php" ><i class="pe-7s-plus"></i></a></p>
                         </div>
@@ -39,7 +39,7 @@
                 </div><!--col-->
                 <div class="col-sm-6 col-md-3 margin20 ">
                     <div class="gallery">
-                        <img src="img/year/4.jpg" alt="gallery-img" class="img-responsive">
+                        <img src="img/year/cpecmu-22.jpg" alt="gallery-img" class="img-responsive">
                         <div class="gallery-overlay">
                             <p><a href="advancedShowstudent4.php" ><i class="pe-7s-plus"></i></a></p> </div>
                     </div>

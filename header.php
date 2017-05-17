@@ -55,7 +55,7 @@
                         <i class="fa fa-youtube-play"></i>
                         <i class="fa fa-youtube-play"></i>
                     </a>
-                    <a href="administrator.php" class="appointment">กดไปเถอะ ไม่มีอะไรหรอก</a>
+                    <a href="administrator.php" class="appointment">Admin edit</a>
                 </div>
 
             </div>

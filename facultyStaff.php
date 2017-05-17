@@ -82,10 +82,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 text-center">
-                        <h3>Take a tour of our medical facility</h3>
+                        <h3>go to home page</h3>
                     </div>
                     <div class="col-md-4 text-center">
-                        <a href="#" class="btn btn-white-border btn-lg">Make an appointment</a>
+                        <a href="index.php" class="btn btn-white-border btn-lg">go now</a>
                     </div>
                 </div>
             </div>
