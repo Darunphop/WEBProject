@@ -1,9 +1,9 @@
-<?php require_once("header.php"); ?>
+﻿<?php require_once("header.php"); ?>
 <?php
 
 	$servername = "localhost";
-	$username = "root";
-	$password = "";
+	$username = "group1";
+	$password = "group1";
 	$dbname = "group1";
 	$conn = new mysqli($servername, $username, $password,$dbname);
 	mysqli_set_charset($conn, "utf8");
